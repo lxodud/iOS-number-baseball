@@ -28,7 +28,7 @@
 ### 3. 팀원
 <img src="https://user-images.githubusercontent.com/19286161/185524199-843e7008-3d70-45a7-95b6-ed01f00e54c3.png" width=200>|<img src="https://user-images.githubusercontent.com/19286161/185532319-5347518f-d608-451e-b508-62f186c23a40.png" width=200>|
 |:--:|:--:|
-||감자|
+|하모|감자|
 
 ### 4. 프로젝트 순서도
 ![image](https://user-images.githubusercontent.com/19286161/185542140-6ad444b0-451e-4036-9457-a3651c9f4377.png)
