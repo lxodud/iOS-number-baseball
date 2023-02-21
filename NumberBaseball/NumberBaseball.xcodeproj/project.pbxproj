@@ -10,7 +10,7 @@
 		0C12005129A497F0003BADF1 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12005029A497F0003BADF1 /* Menu.swift */; };
 		0C12005329A4ADCB003BADF1 /* NumberBaseBallMC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12005229A4ADCB003BADF1 /* NumberBaseBallMC.swift */; };
 		0C12005529A4ADEF003BADF1 /* NumberBaseBallReferee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12005429A4ADEF003BADF1 /* NumberBaseBallReferee.swift */; };
-		0C12005729A4AE06003BADF1 /* RandomNumberMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12005629A4AE06003BADF1 /* RandomNumberMaker.swift */; };
+		0C12005929A4C96B003BADF1 /* RandomNumberMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C12005829A4C96B003BADF1 /* RandomNumberMaker.swift */; };
 		C7A29CFC2551372B00CAC77A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A29CFB2551372B00CAC77A /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,7 +30,7 @@
 		0C12005029A497F0003BADF1 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		0C12005229A4ADCB003BADF1 /* NumberBaseBallMC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberBaseBallMC.swift; sourceTree = "<group>"; };
 		0C12005429A4ADEF003BADF1 /* NumberBaseBallReferee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberBaseBallReferee.swift; sourceTree = "<group>"; };
-		0C12005629A4AE06003BADF1 /* RandomNumberMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberMaker.swift; sourceTree = "<group>"; };
+		0C12005829A4C96B003BADF1 /* RandomNumberMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomNumberMaker.swift; sourceTree = "<group>"; };
 		C7A29CF82551372B00CAC77A /* NumberBaseball */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberBaseball; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A29CFB2551372B00CAC77A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,7 +69,7 @@
 				0C12005029A497F0003BADF1 /* Menu.swift */,
 				0C12005229A4ADCB003BADF1 /* NumberBaseBallMC.swift */,
 				0C12005429A4ADEF003BADF1 /* NumberBaseBallReferee.swift */,
-				0C12005629A4AE06003BADF1 /* RandomNumberMaker.swift */,
+				0C12005829A4C96B003BADF1 /* RandomNumberMaker.swift */,
 			);
 			path = NumberBaseball;
 			sourceTree = "<group>";
@@ -132,7 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C12005329A4ADCB003BADF1 /* NumberBaseBallMC.swift in Sources */,
-				0C12005729A4AE06003BADF1 /* RandomNumberMaker.swift in Sources */,
+				0C12005929A4C96B003BADF1 /* RandomNumberMaker.swift in Sources */,
 				0C12005129A497F0003BADF1 /* Menu.swift in Sources */,
 				C7A29CFC2551372B00CAC77A /* main.swift in Sources */,
 				0C12005529A4ADEF003BADF1 /* NumberBaseBallReferee.swift in Sources */,

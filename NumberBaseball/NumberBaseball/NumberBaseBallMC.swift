@@ -7,7 +7,7 @@
 
 import Foundation
 
-class NumberBaseBallMC {
+final class NumberBaseBallMC {
     private let randomNumberMaker: RandomNumberMaker
     private let referee: NumberBaseBallReferee
     private let randomNumber: [Int]
@@ -56,6 +56,32 @@ class NumberBaseBallMC {
         }
     }
     
+    private func startRound() {
+        while lifeCount != 0 {
+            guard let userNumber = getUserNumber() else {
+                print("입력이 잘못되었습니다.")
+                printInputNumberRule()
+                continue
+            }
+            
+            lifeCount -= 1
+            let result = referee.decide(comparing: randomNumber, with: userNumber)
+            
+            if result.strike == 3 {
+                print("사용자 승리!")
+                break
+            }
+            
+            print("남은기회 : \(lifeCount)")
+        }
+        
+        if lifeCount == 0 {
+            print("컴퓨터 승리...!")
+        }
+        
+        startGame()
+    }
+    
     private func printInputNumberRule() {
         print("숫자 3개를 띄어쓰기로 구분하여 입력해주세요.")
         print("중복 숫자는 허용하지 않습니다.")
@@ -81,34 +107,5 @@ class NumberBaseBallMC {
         }
         
         return userInputNumber
-    }
-    
-    private func startRound() {
-        while lifeCount != 0 {
-            guard let userNumber = getUserNumber() else {
-                print("입력이 잘못되었습니다.")
-                print("숫자 3개를 띄어쓰기로 구분하여 입력해주세요.")
-                print("중복 숫자는 허용하지 않습니다.")
-                continue
-            }
-            
-            lifeCount -= 1
-            let result = referee.decide(comparing: randomNumber, with: userNumber)
-            
-            print("\(result.strike) 스트라이크, \(result.ball) 볼")
-            
-            if result.strike == 3 {
-                print("사용자 승리!")
-                break
-            }
-            
-            print("남은기회 : \(lifeCount)")
-        }
-        
-        if lifeCount == 0 {
-            print("컴퓨터 승리...!")
-        }
-        
-        startGame()
     }
 }

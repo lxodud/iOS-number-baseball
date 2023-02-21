@@ -7,13 +7,15 @@
 
 import Foundation
 
-class NumberBaseBallReferee {
+final class NumberBaseBallReferee {
     func decide(
         comparing randomNumber: [Int],
         with userNumber: [Int]
     ) -> (strike: Int, ball: Int) {
         let strike = checkStrike(comparing: randomNumber, with: userNumber)
         let ball = checkBall(comparing: randomNumber, with: userNumber)
+        
+        print("\(strike) 스트라이크, \(ball) 볼")
         
         return (strike, ball)
     }
@@ -37,6 +39,7 @@ class NumberBaseBallReferee {
                 strikeCount += 1
             }
         }
+        
         return strikeCount
     }
 }
