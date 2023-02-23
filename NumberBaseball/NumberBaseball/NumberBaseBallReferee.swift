@@ -23,7 +23,7 @@ final class NumberBaseBallReferee: Refereeable {
         
         while currentCoin != 0 {
             guard let userNumber = getUserNumber() else {
-                print("입력이 잘못되었습니다.")
+                print(Constant.invalidInput)
                 printInputNumberRule()
                 continue
             }

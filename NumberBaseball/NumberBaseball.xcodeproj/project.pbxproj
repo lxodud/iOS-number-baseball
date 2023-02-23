@@ -15,6 +15,7 @@
 		0C8BE2B029A788C20026F204 /* RockScissorPaperReferee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BE2AF29A788C20026F204 /* RockScissorPaperReferee.swift */; };
 		0C8BE2B229A7891A0026F204 /* HandType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BE2B129A7891A0026F204 /* HandType.swift */; };
 		0C8BE2B429A7893B0026F204 /* Turn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BE2B329A7893B0026F204 /* Turn.swift */; };
+		0C8BE2B729A78CD40026F204 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BE2B629A78CD40026F204 /* Constant.swift */; };
 		C7A29CFC2551372B00CAC77A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A29CFB2551372B00CAC77A /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		0C8BE2AF29A788C20026F204 /* RockScissorPaperReferee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockScissorPaperReferee.swift; sourceTree = "<group>"; };
 		0C8BE2B129A7891A0026F204 /* HandType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandType.swift; sourceTree = "<group>"; };
 		0C8BE2B329A7893B0026F204 /* Turn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Turn.swift; sourceTree = "<group>"; };
+		0C8BE2B629A78CD40026F204 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		C7A29CF82551372B00CAC77A /* NumberBaseball */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NumberBaseball; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A29CFB2551372B00CAC77A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,6 +73,7 @@
 				C7A29CFB2551372B00CAC77A /* main.swift */,
 				0C12005029A497F0003BADF1 /* Menu.swift */,
 				0C12005229A4ADCB003BADF1 /* GameDescriptor.swift */,
+				0C8BE2B629A78CD40026F204 /* Constant.swift */,
 				0C8BE2B529A7894E0026F204 /* RockScissorPaper */,
 				C7A29CFA2551372B00CAC77A /* NumberBaseball */,
 				C7A29CF92551372B00CAC77A /* Products */,
@@ -158,6 +161,7 @@
 				0C8BE2B429A7893B0026F204 /* Turn.swift in Sources */,
 				0C12005129A497F0003BADF1 /* Menu.swift in Sources */,
 				C7A29CFC2551372B00CAC77A /* main.swift in Sources */,
+				0C8BE2B729A78CD40026F204 /* Constant.swift in Sources */,
 				0C8BE2B229A7891A0026F204 /* HandType.swift in Sources */,
 				0C12005529A4ADEF003BADF1 /* NumberBaseBallReferee.swift in Sources */,
 			);

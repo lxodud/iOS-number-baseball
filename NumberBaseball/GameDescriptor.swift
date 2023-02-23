@@ -10,9 +10,7 @@ import Foundation
 final class GameDescriptor {
     private let referee: Refereeable
     
-    init(
-        referee: Refereeable
-    ) {
+    init(referee: Refereeable) {
         self.referee = referee
     }
     
@@ -53,5 +51,3 @@ final class GameDescriptor {
         startGame()
     }
 }
-
-

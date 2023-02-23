@@ -28,16 +28,16 @@ final class RockScissorPaperReferee: Refereeable {
 
     private func getUserHandNumber() -> Int? {
         let input = readLine()
-        return validateUserHandNumber(input: input)
+        return verifyUserHandNumber(input: input)
     }
 
-    private func validateUserHandNumber(input: String?) -> Int? {
+    private func verifyUserHandNumber(input: String?) -> Int? {
         guard let input = input,
               let userHandNumber = Int(input),
               userHandNumber <= 3,
               userHandNumber >= 0
         else {
-            print("잘못된 입력입니다. 다시 시도해 주세요")
+            print(Constant.invalidInput)
             return nil
         }
         return userHandNumber
