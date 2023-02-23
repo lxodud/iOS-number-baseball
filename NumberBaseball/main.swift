@@ -7,10 +7,12 @@ import Foundation
 
 func main() {
     let randomNumberMaker = RandomNumberMaker()
-    let referee = NumberBaseBallReferee(
-        randomNumberMaker: randomNumberMaker,
-        maxCoin: 9
-    )
+//    let referee = NumberBaseBallReferee(
+//        randomNumberMaker: randomNumberMaker,
+//        maxCoin: 9
+//    )
+    
+    let referee = RockScissorPaperReferee()
     
     let mc = GameDescriptor(referee: referee)
     

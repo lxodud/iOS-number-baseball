@@ -7,10 +7,6 @@
 
 import Foundation
 
-protocol Refereeable {
-    func startRound()
-}
-
 final class NumberBaseBallReferee: Refereeable {
     private let randomNumberMaker: RandomNumberMaker
     private var randomNumber: [Int] = []
